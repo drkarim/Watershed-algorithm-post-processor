@@ -1,4 +1,6 @@
 # Post-processing for marker-controlled Watershed segmentation
+This accomplishes a very specific task of classifying pixels following a Watershed segmentation. The Watershed segmentation step was tested on ImageJ
+
 For extracting the left atrial myocardial wall, we have tested a Marker-controlled Watershed segmentation [ImageJ](https://imagej.nih.gov/ij/) implementation on CMR images of the left atrium [Varela et al.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4328285). The Watershed process is run on the [Gradient magnitude](https://en.wikipedia.org/wiki/Image_gradient) of the CMR image. 
 
 However, it requires post-processing for finalising the atrial wall segmentation. The following repository contains two separate tools that accomplish these post-processing tasks. 
